@@ -1,12 +1,17 @@
 {
-  "name": "node-starter",
-  "version": "0.0.0",
-  "private": true,
+  "name": "nse-option-chain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "start:prod": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "axios": "^1.6.7",
+    "fs": "^0.0.1-security",
+    "nodemon": "^3.0.3"
   }
 }
